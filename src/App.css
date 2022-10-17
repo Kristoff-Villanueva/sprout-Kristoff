@@ -1,0 +1,155 @@
+/* * {
+	border: 1px solid red;
+} */
+
+.main-heading {
+	display: inline;
+	margin-left: 10px;
+	border-left: 1px solid lightslategray;
+	padding-left: 10px;
+	color: #fff;
+}
+
+.brand-image {
+	/* border: 1px solid red; */
+	/* margin-left: -50px; */
+	height: 50px;
+}
+
+.brand-div {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+}
+
+.search-bar {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #7a8990;
+}
+
+.search-bar::placeholder {
+	color: #7a8990;
+	text-align: center;
+}
+
+.nav-icon {
+	color: #7a8990;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.profile {
+	color: #fff;
+}
+
+.admin {
+	color: deepskyblue;
+	margin-left: 20px;
+}
+
+.announcement-btn {
+	background-color: #17ad49;
+	margin-left: auto;
+	border: none;
+}
+
+.plus-icon {
+	margin-right: 10px;
+}
+
+.col-top-right {
+	display: flex;
+	align-items: center;
+}
+
+.col-middle {
+	display: flex;
+}
+
+.all-div {
+	display: flex;
+	height: 30px;
+	align-items: center;
+	background-color: #e6ffee;
+	width: 100px;
+	justify-content: center;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+.count-num,
+.count-text,
+.draft-num,
+.draft-text {
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.count-num {
+	padding: 0px 10px;
+	background-color: #17ad49;
+	color: whitesmoke;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.count-text {
+	margin-left: 10px;
+	color: #17ad49;
+	font-weight: 500;
+}
+
+.draft-div {
+	display: flex;
+	height: 30px;
+	align-items: center;
+	width: 100px;
+	justify-content: center;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+.draft-num {
+	padding: 0px 10px;
+	background-color: #ff7f00;
+	color: whitesmoke;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.row-middle {
+	margin-top: 20px;
+}
+
+.div-table {
+	border: 1px solid #e4e7ea;
+	margin: 10px 60px;
+	border-radius: 5px;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.info-icon {
+	color: dodgerblue;
+}
+
+.items {
+	display: flex;
+}
+
+.form-label {
+	width: 50%;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.table-div {
+	display: flex;
+	justify-content: center;
+}
+
+#items-per-page {
+	width: 70px;
+}
