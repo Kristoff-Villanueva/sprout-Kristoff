@@ -5,18 +5,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Nav, NavDropdown } from "react-bootstrap";
 import { faMagnifyingGlass, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
+import navigationLinks from "../assets/navLinks";
 
 // Nav Links
-const navLinks = [
-	"My Requests",
-	"My Team",
-	"Company",
-	"Administration Tools",
-	"Maintenance",
-];
-const navDropDownElements = navLinks.map(function (navEl) {
+
+const navDropDownElements = navigationLinks.map(function (navEl) {
 	return (
-		<NavDropdown title={navEl} className="basic-nav-dropdown"></NavDropdown>
+		<NavDropdown title={navEl.main} className="basic-nav-dropdown">
+			<NavDropdown.Item href="#">{navEl.sub}</NavDropdown.Item>
+		</NavDropdown>
 	);
 });
 

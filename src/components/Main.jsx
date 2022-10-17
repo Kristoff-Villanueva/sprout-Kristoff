@@ -1,6 +1,6 @@
 import React from "react";
-import { Table, Form, Container, Row, Col } from "react-bootstrap";
-import messageObject from "./data";
+import { Table, Form, Container, Row, Col, Pagination } from "react-bootstrap";
+import messageObject from "../assets/messages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
@@ -53,8 +53,19 @@ function Main() {
 							</Form.Select>
 						</Form.Group>
 					</Col>
-					<Col></Col>
-					<Col></Col>
+					<Col>
+						<Pagination className="pagination">
+							<Pagination.First />
+							<Pagination.Prev />
+							<Pagination.Item>{1}</Pagination.Item>
+							<Pagination.Item>{2}</Pagination.Item>
+							<Pagination.Next />
+							<Pagination.Last />
+						</Pagination>
+					</Col>
+					<Col>
+						<p className="showing">Showing 1 - 10 of 1</p>
+					</Col>
 				</Row>
 			</Container>
 		</div>

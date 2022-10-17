@@ -37,6 +37,7 @@
 	color: #7a8990;
 	font-size: 30px;
 	margin-left: 20px;
+	cursor: pointer;
 }
 
 .profile {
@@ -133,16 +134,19 @@
 
 .info-icon {
 	color: dodgerblue;
+	width: 15px;
 }
 
 .items {
 	display: flex;
+	margin-top: 20px;
 }
 
 .form-label {
-	width: 50%;
-	text-align: right;
+	width: 30%;
+	text-left: right;
 	margin-right: 10px;
+	margin-top: 7px;
 }
 
 .table-div {
@@ -152,4 +156,16 @@
 
 #items-per-page {
 	width: 70px;
+	justify-self: flex-end;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.showing {
+	margin-top: 25px;
+	text-align: right;
 }
